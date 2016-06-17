@@ -212,20 +212,9 @@ Text Label 1650 2200 2    60   ~ 0
 RA3
 Text Label 1650 2100 2    60   ~ 0
 RA2
-$Comp
-L CONN_01X02 P1
-U 1 1 5746AD50
-P 1750 4300
-F 0 "P1" H 1750 4450 50  0000 C CNN
-F 1 "CONN_01X02" V 1850 4300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1900 4700 50  0000 C CNN
-F 3 "" H 1750 4300 50  0000 C CNN
-	1    1750 4300
-	1    0    0    -1  
-$EndComp
-Text Label 1550 4250 2    60   ~ 0
+Text Label 1800 4000 2    60   ~ 0
 Vbat
-Text Label 1550 4350 2    60   ~ 0
+Text Label 1800 4600 2    60   ~ 0
 V-
 $Comp
 L C C2
@@ -492,7 +481,7 @@ U 1 1 57491CC8
 P 2450 6300
 F 0 "U1" H 2450 6750 60  0000 C CNN
 F 1 "HS0038B" H 2450 6600 60  0000 C CNN
-F 2 "LEDs:LED-5MM-3" V 2950 6400 60  0000 C CNN
+F 2 "bengineeringlabs:HS0038B" V 2950 6400 60  0000 C CNN
 F 3 "" H 2400 6350 60  0000 C CNN
 	1    2450 6300
 	1    0    0    -1  
@@ -653,4 +642,19 @@ Wire Wire Line
 	9050 4750 9300 4750
 Wire Wire Line
 	9300 5100 9050 5100
+$Comp
+L Battery BT?
+U 1 1 5763802F
+P 1800 4250
+F 0 "BT?" H 1900 4300 50  0000 L CNN
+F 1 "Battery" H 1900 4200 50  0000 L CNN
+F 2 "bengineeringlabs:18650BatHolder" V 1500 4300 50  0000 C CNN
+F 3 "" V 1800 4290 50  0000 C CNN
+	1    1800 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4400 1800 4600
+Wire Wire Line
+	1800 4000 1800 4100
 $EndSCHEMATC
