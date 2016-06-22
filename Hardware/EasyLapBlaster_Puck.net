@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\dev\EasyLapBlaster_Puck\Hardware\EasyLapBlaster_Puck.sch)
-    (date "6/16/2016 10:48:38 PM")
+    (source "C:/Users/klhoa/OneDrive/Hobby Workspace/KiCad Projects/EasyLapBlaster_Puck-master/Hardware/EasyLapBlaster_Puck.sch")
+    (date "6/21/2016 14:50:53")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -184,7 +184,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 574777DE))
     (comp (ref R3)
-      (value 1000)
+      (value 1K)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -363,14 +363,14 @@
         (pin (num 1) (name 1) (type input))
         (pin (num 2) (name 2) (type input)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical EasyLapBlaster_Puck-cache)
-      (uri C:\dev\EasyLapBlaster_Puck\Hardware\EasyLapBlaster_Puck-cache.lib)))
+      (uri "C:\\Users\\klhoa\\OneDrive\\Hobby Workspace\\KiCad Projects\\EasyLapBlaster_Puck-master\\Hardware\\EasyLapBlaster_Puck-cache.lib")))
   (nets
     (net (code 1) (name /GND)
       (node (ref Q2) (pin 2))
